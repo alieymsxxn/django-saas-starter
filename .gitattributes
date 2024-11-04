@@ -1,0 +1,3 @@
+   # Ignore all non-Python files
+   * linguist-vendored
+   *.py linguist-vendored=false
