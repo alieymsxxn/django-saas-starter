@@ -1,65 +1,34 @@
 # Django Project Setup Guide 🚀
 
-## Prerequisites
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.75rem; border-radius: 4px;">
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #3776AB;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 16px; height: 16px;" />
-    Python 3.12
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #0066B3;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="pip" style="width: 16px; height: 16px;" />
-    pip
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #4B5563;">
-    <img src="https://python-poetry.org/images/logo-origami.svg" alt="Poetry" style="width: 16px; height: 16px;" />
-    Poetry
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #171515;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 16px; height: 16px;" />
-    Git
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #32648C;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" style="width: 16px; height: 16px;" />
-    PostgreSQL
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: white;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" style="width: 16px; height: 16px;" />
-    AWS
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: #a4b6ff;">
-    <img src="https://cdn.worldvectorlogo.com/logos/stripe-3.svg" alt="Stripe" style="width: 16px; height: 16px;" />
-    Stripe
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: white;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind" style="width: 16px; height: 16px;" />
-    Tailwind
-  </button>
-  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: #8BBFFF;">
-    <img src="https://flowbite.com/docs/images/logo.svg" alt="Flowbite" style="width: 16px; height: 16px;" />
-    Flowbite
-  </button>
-</div>
+## Tools & Dependencies
+<div align="left">
 
-## Dependencies:
-<div align="center">
+### Core Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-171515?style=flat&logo=git&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-32648C?style=flat&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonwebservices&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwindcss&logoColor=white)
+![Flowbite](https://img.shields.io/badge/Flowbite-1A56DB?style=flat&logo=flowbite&logoColor=white)
 
-<div style="width: 50%; margin: 0 auto;">
+### Backend Dependencies
+![Django](https://img.shields.io/badge/Django%20|%20v5.0.9-092E20?style=flat&logo=django&logoColor=white)
+![gunicorn](https://img.shields.io/badge/gunicorn%20|%20v23.0.0-499848?style=flat&logo=gunicorn&logoColor=white)
+![python-decouple](https://img.shields.io/badge/python--decouple%20|%20v3.8-3776AB?style=flat&logo=python&logoColor=white)
+![psycopg](https://img.shields.io/badge/psycopg%20|%20v3.2.3-336791?style=flat&logo=postgresql&logoColor=white)
+![dj-database-url](https://img.shields.io/badge/dj--database--url%20|%20v2.3.0-003545?style=flat&logo=django&logoColor=white)
+![requests](https://img.shields.io/badge/requests%20|%20v2.32.3-3776AB?style=flat&logo=python&logoColor=white)
+![whitenoise](https://img.shields.io/badge/whitenoise%20|%20v6.8.2-000000?style=flat&logo=python&logoColor=white)
 
-| Dependency | Use Case |
-|:----------|:---------|
-| ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) | Web framework |
-| ![gunicorn](https://img.shields.io/badge/gunicorn-499848?style=flat&logo=gunicorn&logoColor=white) | Production web server |
-| ![python-decouple](https://img.shields.io/badge/python--decouple-3776AB?style=flat&logo=python&logoColor=white) | Environment configuration |
-| ![psycopg](https://img.shields.io/badge/psycopg-336791?style=flat&logo=postgresql&logoColor=white) | PostgreSQL adapter |
-| ![dj-database-url](https://img.shields.io/badge/dj--database--url-003545?style=flat&logo=django&logoColor=white) | Database URL configuration |
-| ![requests](https://img.shields.io/badge/requests-3776AB?style=flat&logo=python&logoColor=white) | HTTP library |
-| ![whitenoise](https://img.shields.io/badge/whitenoise-000000?style=flat&logo=python&logoColor=white) | Static file serving |
-| ![django-allauth](https://img.shields.io/badge/django--allauth-092E20?style=flat&logo=django&logoColor=white) | Authentication |
-| ![django-allauth-ui](https://img.shields.io/badge/django--allauth--ui-092E20?style=flat&logo=django&logoColor=white) | Auth UI components |
-| ![django-widget-tweaks](https://img.shields.io/badge/django--widget--tweaks-092E20?style=flat&logo=django&logoColor=white) | Form rendering |
-| ![stripe](https://img.shields.io/badge/stripe-008CDD?style=flat&logo=stripe&logoColor=white) | Payment processing |
+### Authentication & UI
+![django-allauth](https://img.shields.io/badge/django--allauth%20|%20v65.1.0-092E20?style=flat&logo=django&logoColor=white)
+![django-allauth-ui](https://img.shields.io/badge/django--allauth--ui%20|%20v1.5.1-092E20?style=flat&logo=django&logoColor=white)
+![django-widget-tweaks](https://img.shields.io/badge/django--widget--tweaks%20|%20v1.5.0-092E20?style=flat&logo=django&logoColor=white)
 
-</div>
+### Storage & Payment
+![Stripe](https://img.shields.io/badge/Stripe%20|%20v11.2.0-008CDD?style=flat&logo=stripe&logoColor=white)
+![django-storages](https://img.shields.io/badge/django--storages%20|%20v1.14.4-092E20?style=flat&logo=django&logoColor=white)
+![boto3](https://img.shields.io/badge/boto3%20|%20v1.35.54-FF9900?style=flat&logo=amazonwebservices&logoColor=white)
 
 </div>
 
