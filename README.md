@@ -5,6 +5,9 @@
 
 ### Core Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-171515?style=flat&logo=git&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-32648C?style=flat&logo=postgresql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonwebservices&logoColor=white)
@@ -34,27 +37,36 @@
 
 ## Setup Instructions
 
-### 1. Virtual Environment Setup 🔧
-- Create virtual environment:
+### 1. Virtual Environment Setup & Dependencies 🔧
+1. Create and activate virtual environment:
   ```bash
+  # Create virtual environment
   python3 -m venv .venv
-  ```
-- Activate environment:
-  ```bash
+
+  # Activate on macOS/Linux
   source .venv/bin/activate
-  ```
-- Install requirements:
-  ```bash
-  pip install -r requirements.txt
-  ```
-- Upgrade pip:
-  ```bash
-  pip install pip --upgrade
+  
+  # Activate on Windows
+  .venv\Scripts\activate
   ```
 
-### 2. Run Development Server
-- Run development server:
+2. Install and update dependencies:
   ```bash
+  # Upgrade pip to latest version
+  python -m pip install --upgrade pip
+
+  # Install project dependencies
+  pip install -r requirements.txt
+  ```
+
+### 2. Run Development Server 🚀
+1. Start the Django development server:
+  ```bash
+  # Navigate to source directory
   cd src
+
+  # Run server (default: http://127.0.0.1:8000/)
   python manage.py runserver
   ```
+
+2. Access the development site at: http://127.0.0.1:8000/
