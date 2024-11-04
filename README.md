@@ -1,94 +1,44 @@
 # Django Project Setup Guide 🚀
 
 ## Prerequisites
-<div class="prereq-container">
-  <button class="prereq-btn python">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.75rem; border-radius: 4px;">
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #3776AB;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 16px; height: 16px;" />
     Python 3.12
   </button>
-  <button class="prereq-btn pip">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="pip" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #0066B3;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="pip" style="width: 16px; height: 16px;" />
     pip
   </button>
-  <button class="prereq-btn poetry">
-    <img src="https://python-poetry.org/images/logo-origami.svg" alt="Poetry" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #4B5563;">
+    <img src="https://python-poetry.org/images/logo-origami.svg" alt="Poetry" style="width: 16px; height: 16px;" />
     Poetry
   </button>
-  <button class="prereq-btn git">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #171515;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 16px; height: 16px;" />
     Git
   </button>
-  <button class="prereq-btn postgres">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: white; background: #32648C;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" style="width: 16px; height: 16px;" />
     PostgreSQL
   </button>
-  <button class="prereq-btn aws">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: white;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" style="width: 16px; height: 16px;" />
     AWS
   </button>
-  <button class="prereq-btn stripe">
-    <img src="https://cdn.worldvectorlogo.com/logos/stripe-3.svg" alt="Stripe" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: #a4b6ff;">
+    <img src="https://cdn.worldvectorlogo.com/logos/stripe-3.svg" alt="Stripe" style="width: 16px; height: 16px;" />
     Stripe
   </button>
-  <button class="prereq-btn tailwind">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: white;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind" style="width: 16px; height: 16px;" />
     Tailwind
   </button>
-  <button class="prereq-btn flowbite">
-    <img src="https://flowbite.com/docs/images/logo.svg" alt="Flowbite" />
+  <button style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.25rem 0.5rem; border: none; border-radius: 3px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s ease; color: black; background: #8BBFFF;">
+    <img src="https://flowbite.com/docs/images/logo.svg" alt="Flowbite" style="width: 16px; height: 16px;" />
     Flowbite
   </button>
 </div>
-
-<style>
-.prereq-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 0.75rem;
-  border-radius: 4px;
-}
-
-.prereq-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  border: none;
-  border-radius: 3px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  color: white;
-}
-
-.prereq-btn img {
-  width: 16px;
-  height: 16px;
-}
-
-.prereq-btn.python { background: #3776AB; }
-.prereq-btn.pip { background: #0066B3; }
-.prereq-btn.poetry { background: #4B5563; }
-.prereq-btn.git { background: #171515; }
-.prereq-btn.postgres { background: #32648C; }
-.prereq-btn.aws { background: white; color: black; }
-.prereq-btn.stripe { background: #a4b6ff; color: black; }
-.prereq-btn.tailwind { background: white; color: black; }
-.prereq-btn.flowbite { background: #8BBFFF; color: black; }
-
-.prereq-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  filter: brightness(110%);
-}
-
-.prereq-btn:active {
-  transform: translateY(0);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-}
-</style>
 
 ## Dependencies:
 <div align="center">
